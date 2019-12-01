@@ -1,0 +1,112 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    height: 48px;
+}
+.item {
+    padding-right: 20px;
+    a {
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 600;
+    }
+}
+.active {
+    color: red;
+}
+.popularBar {
+    display: flex;
+    justify-content: center;
+    div {
+        padding: 8px;
+        cursor: pointer;
+    }
+}
+.cardContainer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.card{
+    width: 250px;
+    background: rgba(0, 0, 0, 0.08);
+    border-radius: 3px;
+    margin: 10px 0;
+    padding: 20px;
+    img {
+       width: 150px;
+       height: 150px;
+       display: block;
+       margin: 0 auto;
+    }
+    .index{
+        text-align: center;
+        font-size: 36px;
+        font-weight: 400;
+    }
+    .cardTitle{
+        color: rgb(187, 46, 31);
+        text-align: center;
+        font-size: 24px;
+    }
+    i{
+        width: 22px;
+        height: 22px;
+        display: inline-block;
+        margin-right: 5px;
+    }
+}
+.loading{
+    text-align: center;
+    margin: 30px;
+}
+.battleTitle{
+    text-align: center;
+    font-size: 40px;
+}
+.battleInstruction{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+.battleItemIcon{
+    background: rgba(0, 0, 0, 0.08);
+    text-align: center;
+    padding: 40px 0;
+    i {
+        width: 200px;
+        height: 200px;
+        display: inline-block;
+        font-size: 180px;
+    }
+}
+.battleItem{
+    min-width: 300px;
+    margin-bottom: 40px;
+    h4{
+        font-size: 26px;
+        text-align: center;
+    }
+}
+.battleInput{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.battleButton{
+    display: block;
+    margin: 0 auto;
+    background: #000000;
+    color: #FFF;
+    border-radius: 4px;
+    border-color: transparent;
+    padding: 10px 30px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+.battleResultPage{
+    display: flex;
+    justify-content: space-around;
+}
